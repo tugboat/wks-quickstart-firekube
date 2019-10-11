@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: rabbit
+  namespace: default
+spec:
+  releaseName: redis-helm-test
+  targetNamespace: default
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: redis
+    version: 9.3.0
