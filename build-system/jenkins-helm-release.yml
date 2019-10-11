@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: jenkins
+  namespace: build-system
+spec:
+  releaseName: jenkins
+  targetNamespace: build-system
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: jenkins
+    version: 1.7.5
