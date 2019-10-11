@@ -1,7 +1,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: rabbit
+  name: redis
   namespace: default
 spec:
   releaseName: redis-helm-test
