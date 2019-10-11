@@ -119,7 +119,6 @@ items:
           - --memcached-service=memcached
           - --listen-metrics=:3031
           - --sync-garbage-collection
-          - --helmOperator-create=true
           image: fluxcd/flux:1.14.2
           imagePullPolicy: IfNotPresent
           name: flux
