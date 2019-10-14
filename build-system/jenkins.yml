@@ -9,4 +9,4 @@ spec:
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
     name: jenkins
-    version: 1.7.4
+    version: 1.7.5
