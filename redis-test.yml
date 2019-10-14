@@ -3,6 +3,8 @@ kind: HelmRelease
 metadata:
   name: rabbit
   namespace: default
+  annotations:
+    flux.weave.works/automated: "true"
 spec:
   releaseName: redis-helm-test
   targetNamespace: default
